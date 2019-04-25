@@ -1,0 +1,18 @@
+Credits:
+____
+
+Reveal effect by d2phap on GitHub
+
+https://github.com/d2phap/fluent-reveal-effect
+
+____
+
+Parts of "default.css" and "fonts.css" files from Spotless template on templated.co
+
+https://templated.co/spotless
+
+____
+
+"font-awesome.min.css" files from FontAwesome
+
+http://fontawesome.io
