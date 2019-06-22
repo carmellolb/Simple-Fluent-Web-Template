@@ -82,7 +82,7 @@
 }
 
 .sidebar-nav {
-    box-shadow: 0 6px 23px 0 rgba(0,0,0,.26)!important;
+    box-shadow: inset -3px 0px 4px 0px rgba(0, 0, 0, 0.21)!important;
 }
 
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
