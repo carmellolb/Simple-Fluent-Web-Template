@@ -34,22 +34,26 @@ body {
 .btn:hover {
 	color: #fff!important;
         box-shadow: rgba(0, 0, 0, 0.56) 0px 6px 23px 0px;
-        border-radius: 0;
 }
 .btn-blue {
 	background-color: #0078D7;
+        border-radius: 5px;
 }
 .btn-red {
 	background-color: #e81123;
+        border-radius: 5px;
 }
 .btn-green {
 	background-color: #10893E;
+        border-radius: 5px;
 }
 .btn-black {
 	background-color: #333;
+        border-radius: 5px;
 }
 .btn-yellow {
 	background-color: #FFB900;
+        border-radius: 5px;
 }
 
 
