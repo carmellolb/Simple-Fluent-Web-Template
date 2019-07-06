@@ -37,6 +37,7 @@ input:focus {
 
 .block {
     background-color:white;
+    border-radius: 5px;
 }
 
 .button {
