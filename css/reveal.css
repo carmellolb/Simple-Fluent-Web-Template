@@ -63,6 +63,11 @@ body {
 }
 .btn-border	.btn {
 	display: block;
+        height: 32px!important;
+        font-size: 14px!important;
+        font-weight: 600!important;
+        padding-top: 6px;
+        border-radius: 2px!important;
 }
 	
 .btn-border.btn-round {
