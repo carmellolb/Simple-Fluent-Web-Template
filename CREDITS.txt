@@ -16,3 +16,7 @@ ____
 "font-awesome.min.css" files from FontAwesome
 
 http://fontawesome.io
+
+____
+
+Image files from various free image sites
