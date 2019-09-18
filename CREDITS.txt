@@ -20,3 +20,6 @@ http://fontawesome.io
 ____
 
 Image files from various free image sites
+____
+
+Everything else made by us!

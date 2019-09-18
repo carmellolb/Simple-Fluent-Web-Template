@@ -70,6 +70,7 @@
 	{
 		border: 0;
 		display: inline-block;
+                border-radius: 6px;
 	}
 	
 	.image img
