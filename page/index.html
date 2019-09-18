@@ -14,8 +14,10 @@
 <link href="/css/reveal.css" rel="stylesheet" type="text/css">
 <script src="/js/reveal1.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="/js/appearance.js"></script>
 </head>
-<body style="font-family: 'Segoe UI', sans-serif">
+<body style="font-family: 'Segoe UI', sans-serif" class="pagebody">
 <article class="site-content">
   <div class="article-content">
     </div>
@@ -125,7 +127,10 @@
     
 	    <a id="sort">
       </a><a href="/elements" accesskey="5" title="">Elements</a>
-    
+	  
+    <div id="menu">
+	<a href="" data-toggle="modal" data-target="#settings">Settings</a>
+    </div>
   </div></nav>
 </header>
 
@@ -133,7 +138,69 @@
 
   <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
-  
+  <div class="modal" id="settings" role="dialog" style="display: none;">
+    <div class="modal-dialog modal-lg">
+<div class="modal-content" style="
+    height: 264px;
+    overflow: hidden;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: saturate(125%) blur(20px);
+">
+        <div class="modal-header" style="height: 16%;background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMAAAAp4XiDAAAAUVBMVEWFhYWDg4N3d3dtbW17e3t1dXWBgYGHh4d5eXlzc3OLi4ubm5uVlZWPj4+NjY19fX2JiYl/f39ra2uRkZGZmZlpaWmXl5dvb29xcXGTk5NnZ2c8TV1mAAAAG3RSTlNAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEAvEOwtAAAFVklEQVR4XpWWB67c2BUFb3g557T/hRo9/WUMZHlgr4Bg8Z4qQgQJlHI4A8SzFVrapvmTF9O7dmYRFZ60YiBhJRCgh1FYhiLAmdvX0CzTOpNE77ME0Zty/nWWzchDtiqrmQDeuv3powQ5ta2eN0FY0InkqDD73lT9c9lEzwUNqgFHs9VQce3TVClFCQrSTfOiYkVJQBmpbq2L6iZavPnAPcoU0dSw0SUTqz/GtrGuXfbyyBniKykOWQWGqwwMA7QiYAxi+IlPdqo+hYHnUt5ZPfnsHJyNiDtnpJyayNBkF6cWoYGAMY92U2hXHF/C1M8uP/ZtYdiuj26UdAdQQSXQErwSOMzt/XWRWAz5GuSBIkwG1H3FabJ2OsUOUhGC6tK4EMtJO0ttC6IBD3kM0ve0tJwMdSfjZo+EEISaeTr9P3wYrGjXqyC1krcKdhMpxEnt5JetoulscpyzhXN5FRpuPHvbeQaKxFAEB6EN+cYN6xD7RYGpXpNndMmZgM5Dcs3YSNFDHUo2LGfZuukSWyUYirJAdYbF3MfqEKmjM+I2EfhA94iG3L7uKrR+GdWD73ydlIB+6hgref1QTlmgmbM3/LeX5GI1Ux1RWpgxpLuZ2+I+IjzZ8wqE4nilvQdkUdfhzI5QDWy+kw5Wgg2pGpeEVeCCA7b85BO3F9DzxB3cdqvBzWcmzbyMiqhzuYqtHRVG2y4x+KOlnyqla8AoWWpuBoYRxzXrfKuILl6SfiWCbjxoZJUaCBj1CjH7GIaDbc9kqBY3W/Rgjda1iqQcOJu2WW+76pZC9QG7M00dffe9hNnseupFL53r8F7YHSwJWUKP2q+k7RdsxyOB11n0xtOvnW4irMMFNV4H0uqwS5ExsmP9AxbDTc9JwgneAT5vTiUSm1E7BSflSt3bfa1tv8Di3R8n3Af7MNWzs49hmauE2wP+ttrq+AsWpFG2awvsuOqbipWHgtuvuaAE+A1Z/7gC9hesnr+7wqCwG8c5yAg3AL1fm8T9AZtp/bbJGwl1pNrE7RuOX7PeMRUERVaPpEs+yqeoSmuOlokqw49pgomjLeh7icHNlG19yjs6XXOMedYm5xH2YxpV2tc0Ro2jJfxC50ApuxGob7lMsxfTbeUv07TyYxpeLucEH1gNd4IKH2LAg5TdVhlCafZvpskfncCfx8pOhJzd76bJWeYFnFciwcYfubRc12Ip/ppIhA1/mSZ/RxjFDrJC5xifFjJpY2Xl5zXdguFqYyTR1zSp1Y9p+tktDYYSNflcxI0iyO4TPBdlRcpeqjK/piF5bklq77VSEaA+z8qmJTFzIWiitbnzR794USKBUaT0NTEsVjZqLaFVqJoPN9ODG70IPbfBHKK+/q/AWR0tJzYHRULOa4MP+W/HfGadZUbfw177G7j/OGbIs8TahLyynl4X4RinF793Oz+BU0saXtUHrVBFT/DnA3ctNPoGbs4hRIjTok8i+algT1lTHi4SxFvONKNrgQFAq2/gFnWMXgwffgYMJpiKYkmW3tTg3ZQ9Jq+f8XN+A5eeUKHWvJWJ2sgJ1Sop+wwhqFVijqWaJhwtD8MNlSBeWNNWTa5Z5kPZw5+LbVT99wqTdx29lMUH4OIG/D86ruKEauBjvH5xy6um/Sfj7ei6UUVk4AIl3MyD4MSSTOFgSwsH/QJWaQ5as7ZcmgBZkzjjU1UrQ74ci1gWBCSGHtuV1H2mhSnO3Wp/3fEV5a+4wz//6qy8JxjZsmxxy5+4w9CDNJY09T072iKG0EnOS0arEYgXqYnXcYHwjTtUNAcMelOd4xpkoqiTYICWFq0JSiPfPDQdnt+4/wuqcXY47QILbgAAAABJRU5ErkJggg==);">
+          <button type="button" class="close" data-dismiss="modal" style="
+    width: 50px!important;
+    height: 42px!important;
+    opacity: 100!important;
+    margin-top: -15px!important;
+    margin-right: -15px!important;
+    margin-bottom: -5px!important;
+"><img src="/images/image5.png"></button>
+          <h4 class="modal-title" style="
+    margin-top: -5px;
+">Settings</h4>
+		  </div> 
+    <div style="
+    background: #fff;
+    padding-bottom: 110px;
+    padding-left: 20px;
+    padding-top: 16px;
+" class="modal-main">
+	   <h2 style="
+    font-weight: 600;
+" class="">Settings</h2>
+<h3 style="
+    font-weight: 600;
+    margin-top: 15px;
+" class="">Appearance</h3>
+<p style="
+    margin-top: 15px;
+          " class=""><span class=""></span></p><div id="settings" class="" style="
+    margin-left: -7px;
+"><button class="normalmode" style="
+    background: none;
+    border: none;
+">Light</button><button class="darkmode" style="
+    background: none;
+    border: none;
+">Dark</button></div></div>
+        <div class="modal-footer" style="margin-top: -37px;background: #f1f1f1;box-shadow: 0 6px 14px 0 rgba(0, 0, 0, 0.55);"><div style="
+    margin-top: -11px;
+"><a href="https://github.com/carmellolb/Simple-Fluent-Web-Template/issues" style="
+    padding-right: 15px;
+    float: left;
+">Feedback</a><a href="/credits.txt" style="
+    padding-right: 15px;
+    float: left;
+">Credits</a>
+<a href="https://github.com/carmellolb/Simple-Fluent-Web-Template" style="
+    padding-right: 15px;
+    float: left;
+">GitHub</a><a style="
+    ">Version 1.4</a></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
 
     <script src="js/index.js"></script>
 
