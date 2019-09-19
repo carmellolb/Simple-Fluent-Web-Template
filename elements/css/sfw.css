@@ -63,7 +63,7 @@
 
 .modal-content {
     box-shadow: 0 6px 23px 0 rgba(0,0,0,.26)!important;
-    border-radius: 6px!important;
+    border-radius: 4px!important;
     overflow: hidden;
     backdrop-filter: saturate(180%) blur(20px);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
