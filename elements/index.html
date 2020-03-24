@@ -19,6 +19,8 @@
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="/js/appearance.js"></script>
+<script src="/js/navigationviewappearance.js"></script>
+<script src="/js/navigationviewtabcontrols.js"></script>
 </head>
 <body style="font-family: 'Segoe UI', sans-serif" class="elementsbody">
 <article class="site-content">
@@ -181,9 +183,10 @@ $(document).ready(function(){
 </script>
 
 <div class="modal" id="modal-1" role="dialog">
-    <div class="modal-dialog modal-lg ui-draggable">
+    <div class="modal-dialog modal-lg ui-draggable" style="left: -81px;">
 <div class="modal-content" style="
-    height: 323px;
+    height: 605px;
+    width: 118%;
 ">
         <div class="modal-header ui-draggable-handle">
           <button type="button" class="close" data-dismiss="modal"><img src="/images/image5.png"></button>
@@ -206,42 +209,134 @@ $(document).ready(function(){
                     <span class="icon-bar"></span>
                   </button>
                 </div>
-                <div class="navbar-collapse collapse sidebar-navbar-collapse">
+                <div class="navbar-collapse sidebar-navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
                   
-<button type="button" data-dismiss="modal" class="backarrow" style="
-    opacity: 0.5;
-    margin-right: 161px;
-    margin-top: 12px;
-    margin-bottom: 10px;
-    -webkit-appearance: none;
-    padding: 0;
-    cursor: pointer;
-    background: 0 0;
-    border: 0;
-    margin-left: 17.5px;
-"><img style="
-    width: 16px;
-" src="/images/image10.png"></button><button type="button" class="hamburger" style="
+<button type="button" class="shrink" style="
     opacity: 1;
+    margin-top: 50.689px;
     margin-right: 161px;
-    margin-top: 12px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     -webkit-appearance: none;
     padding: 0;
     cursor: pointer;
     background: 0 0;
     border: 0;
-    margin-left: 17.5px;
+    margin-left: 12.5px;
 "><img src="/images/image9.png" style="
     width: 16px;
-"></button><ul class="nav navbar-nav" id="tabContent">
+" class=""></button><ul class="nav navbar-nav" id="tabContent" style="
+">
     
-                    <li class="active"><a href="#1-1" data-toggle="tab" aria-expanded="true" style="
-    background-color: transparent;
-">Menu Item 1</a></li>
-                    <li class=""><a href="#1-2" data-toggle="tab" aria-expanded="false">Menu Item 2</a></li>
-                    <li class=""><a href="#1-3" data-toggle="tab" aria-expanded="false">Menu Item 3</a></li>
-                    <li class=""><a href="#1-4" data-toggle="tab" aria-expanded="false">Menu Item 4</a></li>
+                    <li class="active 11" style="
+    width: fit-content;
+    margin-bottom: 18px;
+"><div style="
+    height: fit-content;
+    margin-top: 10px;
+" class=""><button style="
+    background-image: url(&quot;/images/image19.png&quot;);
+    height: 16px;
+    border: none!important;
+    background-color: unset;
+    margin-left: 12.5px;
+    margin-top: 5px;
+    outline: none!important;
+    margin-bottom: 5px;
+    background-size: cover;
+    margin-right: 12px;
+" href="#1-1" data-toggle="tab" aria-expanded="true" class=""> </button><a class="11" href="#1-1" data-toggle="tab" aria-expanded="true" style="
+    margin-bottom: 10px!important;
+    width: 200%;
+" class="">Menu Item 1</a></div></li>
+                    <li class="12" style="
+    width: fit-content;
+    margin-bottom: 18px;
+"><div style="
+    height: fit-content;
+    margin-top: 10px;
+" class=""><button style="
+    background-image: url(&quot;/images/image19.png&quot;);
+    height: 16px;
+    border: none!important;
+    background-color: unset;
+    margin-left: 12.5px;
+    margin-top: 5px;
+    outline: none!important;
+    margin-bottom: 5px;
+    background-size: cover;
+    margin-right: 12px;
+" href="#1-2" data-toggle="tab" aria-expanded="false" class=""> </button><a class="12" href="#1-2" data-toggle="tab" aria-expanded="false" style="
+    margin-bottom: 10px!important;
+    width: 200%;
+" class="">Menu Item 2</a></div></li>
+                    <li class="13" style="
+    width: fit-content;
+    margin-bottom: 18px;
+"><div style="
+    height: fit-content;
+    margin-top: 10px;
+" class=""><button style="
+    background-image: url(&quot;/images/image19.png&quot;);
+    height: 16px;
+    border: none!important;
+    background-color: unset;
+    margin-left: 12.5px;
+    margin-top: 5px;
+    outline: none!important;
+    margin-bottom: 5px;
+    background-size: cover;
+    margin-right: 12px;
+" href="#1-3" data-toggle="tab" aria-expanded="false"> </button><a class="13" href="#1-3" data-toggle="tab" aria-expanded="false" style="
+    margin-bottom: 10px!important;
+    width: 200%;
+" class="">Menu Item 3</a></div></li>
+                    
+<li class="14" style="
+    width: fit-content;
+    margin-bottom: 18px;
+"><div style="
+    height: fit-content;
+    margin-top: 10px;
+" class=""><button style="
+    background-image: url(&quot;/images/image19.png&quot;);
+    height: 16px;
+    border: none!important;
+    background-color: unset;
+    margin-left: 12.5px;
+    margin-top: 5px;
+    outline: none!important;
+    margin-bottom: 5px;
+    background-size: cover;
+    margin-right: 12px;
+" href="#1-4" data-toggle="tab" aria-expanded="false"> </button><a class="14" href="#1-4" data-toggle="tab" aria-expanded="false" style="
+    margin-bottom: 10px!important;
+    width: 200%;
+" class="">Menu Item 4</a></div></li><li class="15" style="
+    margin-top: 287.5px;
+    width: fit-content;
+    margin-bottom: 18px;
+" class=""><div style="
+    height: fit-content;
+    margin-top: 10px;
+    width: 100px;
+" class=""><div style="
+    margin-top: -12.5px;
+    height: fit-content;
+" class=""><button style="
+    background-image: url(&quot;/images/image18.png&quot;);
+    height: 16px;
+    border: none!important;
+    background-color: unset;
+    margin-left: 12px;
+    outline: none!important;
+    margin-bottom: 5px;
+    width: 16px;
+    background-size: cover;
+    margin-top: 5px;
+" href="#1-5" data-toggle="tab" aria-expanded="false" class=""> </button><a class="15" href="#1-5" data-toggle="tab" aria-expanded="false" style="
+    margin-bottom: 10px!important;
+    margin-left: 10px;
+" class="">Settings</a></div></div></li>
 
                   </ul>
                 </div><!--/.nav-collapse -->
@@ -250,63 +345,142 @@ $(document).ready(function(){
           </div>
           <div class="col-sm-9" style="
     background-color: #ffffff;
-    margin-left: -15px;
+    margin-left: -16.5px;
     margin-top: -14px;
-    height: 280px;
-    width: 690px;
+    height: 562px;
+    width: 781.156219px;
 ">
 <div class="tab-content">
         <div class="tab-pane active" id="1-1">
 	   <h2 style="
     font-weight: 600;
-">Content 1</h2>
+" class="">Content 1</h2>
 <h3 style="
     font-weight: 600;
     margin-top: 15px;
-">Subheader</h3>
+" class="">Subheader</h3>
 <p style="
     margin-top: 15px;
-">This is a paragraph. You can write things in here, like information.</p>
-       </div> 
+" class="">This is a paragraph. You can write things in here, like information.</p>
+       <button type="button" class="backarrow11" style="
+    opacity: 0.5;
+    margin-right: 161px;
+    margin-top: -115px;
+    margin-bottom: 12px;
+    -webkit-appearance: none;
+    padding: 0;
+    cursor: default;
+    background: 0 0;
+    border: 0;
+    margin-left: -283px;
+"><img style="
+    width: 16px;
+    opacity: 0.6;
+" src="/images/image10.png" class=""></button></div> 
         
         <div class="tab-pane" id="1-2">	
 	   <h2 style="
     font-weight: 600;
-">Content 2</h2>
+" class="">Content 2</h2>
 <h3 style="
     font-weight: 600;
     margin-top: 15px;
-">Subheader</h3>
+" class="">Subheader</h3>
 <p style="
     margin-top: 15px;
-">This is a paragraph. You can write things in here, like information.</p>
+" class="">This is a paragraph. You can write things in here, like information.</p><button type="button" class="backarrow12" href="#1-1" data-toggle="tab" aria-expanded="false" style="
+    opacity: 0.5;
+    margin-right: 161px;
+    margin-top: -115px;
+    margin-bottom: 12px;
+    -webkit-appearance: none;
+    padding: 0;
+    cursor: pointer;
+    background: 0 0;
+    border: 0;
+    margin-left: -283px;
+"><img style="
+    width: 16px;
+" src="/images/image10.png" class=""></button>
        </div> 
 
 <div class="tab-pane" id="1-3">	
 	   <h2 style="
     font-weight: 600;
-">Content 3</h2>
+" class="">Content 3</h2>
 <h3 style="
     font-weight: 600;
     margin-top: 15px;
-">Subheader</h3>
+" class="">Subheader</h3>
 <p style="
     margin-top: 15px;
-">This is a paragraph. You can write things in here, like information.</p>
+" class="">This is a paragraph. You can write things in here, like information.</p><button type="button" class="backarrow13" <a href="#1-2" data-toggle="tab" aria-expanded="false" style="
+    opacity: 0.5;
+    margin-right: 161px;
+    margin-top: -115px;
+    margin-bottom: 12px;
+    -webkit-appearance: none;
+    padding: 0;
+    cursor: pointer;
+    background: 0 0;
+    border: 0;
+    margin-left: -283px;
+"><img style="
+    width: 16px;
+" src="/images/image10.png" class=""></button>
        </div> 
 
 <div class="tab-pane" id="1-4">	
 	   <h2 style="
     font-weight: 600;
-">Content 4</h2>
+" class="">Content 4</h2>
 <h3 style="
     font-weight: 600;
     margin-top: 15px;
-">Subheader</h3>
+" class="">Subheader</h3>
 <p style="
     margin-top: 15px;
-">This is a paragraph. You can write things in here, like information.</p>
+" class="">This is a paragraph. You can write things in here, like information.</p><button type="button" class="backarrow14" <a href="#1-3" data-toggle="tab" aria-expanded="false" style="
+    opacity: 0.5;
+    margin-right: 161px;
+    margin-top: -115px;
+    margin-bottom: 12px;
+    -webkit-appearance: none;
+    padding: 0;
+    cursor: pointer;
+    background: 0 0;
+    border: 0;
+    margin-left: -283px;
+"><img style="
+    width: 16px;
+" src="/images/image10.png" class=""></button>
        </div> 
+    
+    <div class="tab-pane" id="1-5">	
+	   <h2 style="
+    font-weight: 600;
+" class="">Settings</h2>
+<h3 style="
+    font-weight: 600;
+    margin-top: 15px;
+" class="">Setting Name</h3>
+<p style="
+    margin-top: 15px;
+" class="">Setting description</p><button type="button" class="backarrow15" <a href="#1-4" data-toggle="tab" aria-expanded="false" style="
+    opacity: 0.5;
+    margin-right: 161px;
+    margin-top: -115px;
+    margin-bottom: 12px;
+    -webkit-appearance: none;
+    padding: 0;
+    cursor: pointer;
+    background: 0 0;
+    border: 0;
+    margin-left: -283px;
+"><img style="
+    width: 16px;
+" src="/images/image10.png" class=""></button>
+       </div>
         </div>
           </div>
         </div>
@@ -373,10 +547,11 @@ $(document).ready(function(){
   </div>
 
 
-<div class="modal" id="modal-2" role="dialog" style="display: none;">
-    <div class="modal-dialog modal-lg ui-draggable">
+<div class="modal" id="modal-2" role="dialog">
+    <div class="modal-dialog modal-lg ui-draggable" style="left: -81px;">
 <div class="modal-content" style="
-    height: 323px;
+    height: 605px;
+    width: 118%;
 ">
         <div class="modal-header ui-draggable-handle">
           <button type="button" class="close" data-dismiss="modal"><img src="/images/image5.png"></button>
@@ -399,42 +574,134 @@ $(document).ready(function(){
                     <span class="icon-bar"></span>
                   </button>
                 </div>
-                <div class="navbar-collapse collapse sidebar-navbar-collapse">
+                <div class="navbar-collapse sidebar-navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
                   
-<button type="button" data-dismiss="modal" class="backarrow" style="
-    opacity: 0.5;
-    margin-right: 161px;
-    margin-top: 12px;
-    margin-bottom: 10px;
-    -webkit-appearance: none;
-    padding: 0;
-    cursor: pointer;
-    background: 0 0;
-    border: 0;
-    margin-left: 17.5px;
-"><img style="
-    width: 16px;
-" src="/images/image10.png"></button><button type="button" class="hamburger" style="
+<button type="button" class="shrink" style="
     opacity: 1;
+    margin-top: 50.689px;
     margin-right: 161px;
-    margin-top: 12px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     -webkit-appearance: none;
     padding: 0;
     cursor: pointer;
     background: 0 0;
     border: 0;
-    margin-left: 17.5px;
+    margin-left: 12.5px;
 "><img src="/images/image9.png" style="
     width: 16px;
-"></button><ul class="nav navbar-nav" id="tabContent">
+" class=""></button><ul class="nav navbar-nav" id="tabContent" style="
+">
     
-                    <li class="active"><a href="#3-1" data-toggle="tab" aria-expanded="true" style="
-    background-color: transparent;
-">Menu Item 1</a></li>
-                    <li class=""><a href="#3-2" data-toggle="tab" aria-expanded="false">Menu Item 2</a></li>
-                    <li class=""><a href="#3-3" data-toggle="tab" aria-expanded="false">Menu Item 3</a></li>
-                    <li class=""><a href="#3-4" data-toggle="tab" aria-expanded="false">Menu Item 4</a></li>
+                    <li class="active 31" style="
+    width: fit-content;
+    margin-bottom: 18px;
+"><div style="
+    height: fit-content;
+    margin-top: 10px;
+" class=""><button style="
+    background-image: url(&quot;/images/image19.png&quot;);
+    height: 16px;
+    border: none!important;
+    background-color: unset;
+    margin-left: 12.5px;
+    margin-top: 5px;
+    outline: none!important;
+    margin-bottom: 5px;
+    background-size: cover;
+    margin-right: 12px;
+" href="#3-1" data-toggle="tab" aria-expanded="true" class=""> </button><a class="31" href="#3-1" data-toggle="tab" aria-expanded="true" style="
+    margin-bottom: 10px!important;
+    width: 200%;
+" class="">Menu Item 1</a></div></li>
+                    <li class="32" style="
+    width: fit-content;
+    margin-bottom: 18px;
+"><div style="
+    height: fit-content;
+    margin-top: 10px;
+" class=""><button style="
+    background-image: url(&quot;/images/image19.png&quot;);
+    height: 16px;
+    border: none!important;
+    background-color: unset;
+    margin-left: 12.5px;
+    margin-top: 5px;
+    outline: none!important;
+    margin-bottom: 5px;
+    background-size: cover;
+    margin-right: 12px;
+" href="#3-2" data-toggle="tab" aria-expanded="false" class=""> </button><a class="32" href="#3-2" data-toggle="tab" aria-expanded="false" style="
+    margin-bottom: 10px!important;
+    width: 200%;
+" class="">Menu Item 2</a></div></li>
+                    <li class="33" style="
+    width: fit-content;
+    margin-bottom: 18px;
+"><div style="
+    height: fit-content;
+    margin-top: 10px;
+" class=""><button style="
+    background-image: url(&quot;/images/image19.png&quot;);
+    height: 16px;
+    border: none!important;
+    background-color: unset;
+    margin-left: 12.5px;
+    margin-top: 5px;
+    outline: none!important;
+    margin-bottom: 5px;
+    background-size: cover;
+    margin-right: 12px;
+" href="#3-3" data-toggle="tab" aria-expanded="false"> </button><a class="33" href="#3-3" data-toggle="tab" aria-expanded="false" style="
+    margin-bottom: 10px!important;
+    width: 200%;
+" class="">Menu Item 3</a></div></li>
+                    
+<li class="34" style="
+    width: fit-content;
+    margin-bottom: 18px;
+"><div style="
+    height: fit-content;
+    margin-top: 10px;
+" class=""><button style="
+    background-image: url(&quot;/images/image19.png&quot;);
+    height: 16px;
+    border: none!important;
+    background-color: unset;
+    margin-left: 12.5px;
+    margin-top: 5px;
+    outline: none!important;
+    margin-bottom: 5px;
+    background-size: cover;
+    margin-right: 12px;
+" href="#3-4" data-toggle="tab" aria-expanded="false"> </button><a class="34" href="#3-4" data-toggle="tab" aria-expanded="false" style="
+    margin-bottom: 10px!important;
+    width: 200%;
+" class="">Menu Item 4</a></div></li><li class="35" style="
+    margin-top: 287.5px;
+    width: fit-content;
+    margin-bottom: 18px;
+" class=""><div style="
+    height: fit-content;
+    margin-top: 10px;
+    width: 100px;
+" class=""><div style="
+    margin-top: -12.5px;
+    height: fit-content;
+" class=""><button style="
+    background-image: url(&quot;/images/image18.png&quot;);
+    height: 16px;
+    border: none!important;
+    background-color: unset;
+    margin-left: 12px;
+    outline: none!important;
+    margin-bottom: 5px;
+    width: 16px;
+    background-size: cover;
+    margin-top: 5px;
+" href="#3-5" data-toggle="tab" aria-expanded="false" class=""> </button><a class="35" href="#3-5" data-toggle="tab" aria-expanded="false" style="
+    margin-bottom: 10px!important;
+    margin-left: 10px;
+" class="">Settings</a></div></div></li>
 
                   </ul>
                 </div><!--/.nav-collapse -->
@@ -443,63 +710,142 @@ $(document).ready(function(){
           </div>
           <div class="col-sm-9" style="
     background-color: #ffffff;
-    margin-left: -15px;
+    margin-left: -16.5px;
     margin-top: -14px;
-    height: 280px;
-    width: 690px;
+    height: 562px;
+    width: 781.156219px;
 ">
 <div class="tab-content">
         <div class="tab-pane active" id="3-1">
 	   <h2 style="
     font-weight: 600;
-">Content 1</h2>
+" class="">Content 1</h2>
 <h3 style="
     font-weight: 600;
     margin-top: 15px;
-">Subheader</h3>
+" class="">Subheader</h3>
 <p style="
     margin-top: 15px;
-">This is a paragraph. You can write things in here, like information.</p>
-       </div> 
+" class="">This is a paragraph. You can write things in here, like information.</p>
+       <button type="button" class="backarrow31" style="
+    opacity: 0.5;
+    margin-right: 161px;
+    margin-top: -115px;
+    margin-bottom: 12px;
+    -webkit-appearance: none;
+    padding: 0;
+    cursor: default;
+    background: 0 0;
+    border: 0;
+    margin-left: -283px;
+"><img style="
+    width: 16px;
+    opacity: 0.6;
+" src="/images/image10.png" class=""></button></div> 
         
         <div class="tab-pane" id="3-2">	
 	   <h2 style="
     font-weight: 600;
-">Content 2</h2>
+" class="">Content 2</h2>
 <h3 style="
     font-weight: 600;
     margin-top: 15px;
-">Subheader</h3>
+" class="">Subheader</h3>
 <p style="
     margin-top: 15px;
-">This is a paragraph. You can write things in here, like information.</p>
+" class="">This is a paragraph. You can write things in here, like information.</p><button type="button" class="backarrow32" href="#3-1" data-toggle="tab" aria-expanded="false" style="
+    opacity: 0.5;
+    margin-right: 161px;
+    margin-top: -115px;
+    margin-bottom: 12px;
+    -webkit-appearance: none;
+    padding: 0;
+    cursor: pointer;
+    background: 0 0;
+    border: 0;
+    margin-left: -283px;
+"><img style="
+    width: 16px;
+" src="/images/image10.png" class=""></button>
        </div> 
 
 <div class="tab-pane" id="3-3">	
 	   <h2 style="
     font-weight: 600;
-">Content 3</h2>
+" class="">Content 3</h2>
 <h3 style="
     font-weight: 600;
     margin-top: 15px;
-">Subheader</h3>
+" class="">Subheader</h3>
 <p style="
     margin-top: 15px;
-">This is a paragraph. You can write things in here, like information.</p>
+" class="">This is a paragraph. You can write things in here, like information.</p><button type="button" class="backarrow33" <a href="#3-2" data-toggle="tab" aria-expanded="false" style="
+    opacity: 0.5;
+    margin-right: 161px;
+    margin-top: -115px;
+    margin-bottom: 12px;
+    -webkit-appearance: none;
+    padding: 0;
+    cursor: pointer;
+    background: 0 0;
+    border: 0;
+    margin-left: -283px;
+"><img style="
+    width: 16px;
+" src="/images/image10.png" class=""></button>
        </div> 
 
 <div class="tab-pane" id="3-4">	
 	   <h2 style="
     font-weight: 600;
-">Content 4</h2>
+" class="">Content 4</h2>
 <h3 style="
     font-weight: 600;
     margin-top: 15px;
-">Subheader</h3>
+" class="">Subheader</h3>
 <p style="
     margin-top: 15px;
-">This is a paragraph. You can write things in here, like information.</p>
+" class="">This is a paragraph. You can write things in here, like information.</p><button type="button" class="backarrow34" <a href="#3-3" data-toggle="tab" aria-expanded="false" style="
+    opacity: 0.5;
+    margin-right: 161px;
+    margin-top: -115px;
+    margin-bottom: 12px;
+    -webkit-appearance: none;
+    padding: 0;
+    cursor: pointer;
+    background: 0 0;
+    border: 0;
+    margin-left: -283px;
+"><img style="
+    width: 16px;
+" src="/images/image10.png" class=""></button>
        </div> 
+    
+    <div class="tab-pane" id="3-5">	
+	   <h2 style="
+    font-weight: 600;
+" class="">Settings</h2>
+<h3 style="
+    font-weight: 600;
+    margin-top: 15px;
+" class="">Setting Name</h3>
+<p style="
+    margin-top: 15px;
+" class="">Setting description</p><button type="button" class="backarrow35" <a href="#3-4" data-toggle="tab" aria-expanded="false" style="
+    opacity: 0.5;
+    margin-right: 161px;
+    margin-top: -115px;
+    margin-bottom: 12px;
+    -webkit-appearance: none;
+    padding: 0;
+    cursor: pointer;
+    background: 0 0;
+    border: 0;
+    margin-left: -283px;
+"><img style="
+    width: 16px;
+" src="/images/image10.png" class=""></button>
+       </div>
         </div>
           </div>
         </div>
@@ -623,7 +969,7 @@ $(document).ready(function(){
     padding-right: 15px;
     float: left;
 ">GitHub</a><a style="
-    ">Version 1.4.2</a></div></div>
+    ">Version 1.4.3</a></div></div>
         </div>
       </div>
     </div>
