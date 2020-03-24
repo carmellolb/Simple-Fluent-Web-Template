@@ -848,3 +848,51 @@ body.darkclass {
 .modal-footer.darkclass {
   background: #151515!important;
 }
+
+.backarrow11.smallclass,
+.backarrow12.smallclass,
+.backarrow13.smallclass,
+.backarrow14.smallclass,
+.backarrow15.smallclass,
+.backarrow31.smallclass,
+.backarrow32.smallclass,
+.backarrow33.smallclass,
+.backarrow34.smallclass,
+.backarrow35.smallclass {
+  margin-right: unset!important;
+  margin-left: -45.5px!important;
+}
+
+.navbar-default .navbar-nav .smallclass a {
+  display: none!important;
+}
+
+.col-sm-3.smallclass {
+  width: 5.689%!important;
+}
+
+.col-sm-9.smallclass {
+  width: 1018.10934439px!important;
+}
+
+.shrink.smallclass {
+  margin-right: unset!important;
+}
+
+* {
+  outline: none!important;
+}
+
+.shrink.darkclass,
+.backarrow11.darkclass,
+.backarrow12.darkclass,
+.backarrow13.darkclass,
+.backarrow14.darkclass,
+.backarrow15.darkclass,
+.backarrow31.darkclass,
+.backarrow32.darkclass,
+.backarrow33.darkclass,
+.backarrow34.darkclass,
+.backarrow35.darkclass {
+  filter: invert(100%);
+}
