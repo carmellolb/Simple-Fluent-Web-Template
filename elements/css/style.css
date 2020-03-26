@@ -21,7 +21,7 @@ img {
   z-index: 99;
   overflow: hidden;
   max-height: 4em;
-  box-shadow: 0 6px 23px 0 rgba(255,255,255,.23)!important;
+  box-shadow: rgba(0, 0, 0, 0.47) -1px 8px 23px 0px;
   height: 60;
   background: #0000004d;
   backdrop-filter: saturate(125%) blur(20px);
