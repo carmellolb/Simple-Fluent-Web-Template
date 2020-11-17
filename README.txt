@@ -1,6 +1,6 @@
 Thank you for using Simple Fluent Web.
 
-The Simple Fluent Web Template is the solution to bringing Microsoft's Fluent Design, which includes Acrylic, Reveal, shadows, and more to the web, accessible on any modern browser.
+The Simple Fluent Web Template is the solution to bringing Microsoft's Fluent Design, which includes some controls like buttons, modals, and more, as well as styles like Acrylic, Reveal, shadows, and more to the web, accessible on any modern browser.
 
 ___
 LIVE DEMO: http://isobook.net:8063
